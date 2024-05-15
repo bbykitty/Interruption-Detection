@@ -23,7 +23,7 @@ def read_ini(file_path):
 
 
 if __name__ == "__main__":
-    datadir, sesslist, client, labels, features = read_ini(r"feature extraction\config.ini")
+    datadir, sesslist, client, labels, features = read_ini("config.ini")
     # Google_VAD.get_vad(sesslist)
     # segment.segment_audio(sesslist)
     # Google_ASR.get_asr(client, sesslist)
